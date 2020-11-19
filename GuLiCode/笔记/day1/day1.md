@@ -34,6 +34,33 @@ http：
 
 入门Demo：
 1. 搭建注册中心
-2. 搭建监控中心
+2. 搭建监控中心：前后端分离
+   - 前端:dubbo-admin-ui(vue+node.js)
+   - - npm intall /npm start
+   - 后端:dubbo-admin-server(springboot)
+   - - 改配置(配置zookeeper注册中心地址)
+   - - 打包:mvn clear mvn package
+   - - 启动：切换到target目录 java -jar xxx.jar
 3. 创建服务提供方
+   - 引入依赖：dubbo的springboot启动器、dubbo整合zookeeper依赖 zookeeper客户端依赖
+   - 添加配置：
+   - 在启动类加注解：@EnableDubbo
+   - 代码编写
+   - - service：实现类上加上dubbo的@Service注解
+   - - mapper
+   - - pojo：使用lombok
 4. 创建服务消费方
+   - 引入依赖：同上
+   - 添加配置：
+   - 在启动类加注解：@EnableDubbo
+   - 代码编写
+   - 需要service和pojo
+   - controller:不使用Autowired而是Reference(dubbo)
+
+**注意项:**
+1. 所有的pojo对象必须需要先实现序列化接口
+2. 所有启动项必须先启动生产方，在启动消费方
+
+服务提供方(service实现，mapper接口)
+服务消费方(controller，service)
+接口工程(pojo实体类，service接口)
