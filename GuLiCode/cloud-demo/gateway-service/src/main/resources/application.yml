@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: provider-route
+          uri: lb://provider-service
+          predicates:
+            - Path=/provider/**
+        - id: consumer-route
+          uri: lb://consumer-service
+          predicates:
+            - Path=/consumer/**
+    nacos:
+      discovery:
+        server-addr: localhost:8848
