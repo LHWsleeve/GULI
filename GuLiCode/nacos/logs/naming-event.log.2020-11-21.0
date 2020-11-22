@@ -1,0 +1,56 @@
+2020-11-21 13:08:10,107 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.42.1:18070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-21 13:08:10,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 13:31:50,806 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 13:36:44,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 13:38:04,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 13:39:35,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 13:42:57,176 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.42.1:18080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-21 13:42:57,176 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.42.1:18080_true,
+
+2020-11-21 13:55:41,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 14:04:24,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.42.1:18080_true,
+
+2020-11-21 15:00:32,880 INFO {POS} {IP-DISABLED} valid: 192.168.42.1:18070@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1605942013440
+
+2020-11-21 15:00:34,060 INFO {POS} {IP-DISABLED} valid: 192.168.42.1:18080@DEFAULT@DEFAULT_GROUP@@consumer-service, region: unknown, msg: client timeout after 15000, last beat: 1605942015849
+
+2020-11-21 15:00:48,012 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.42.1:18070:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-21 15:00:48,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2020-11-21 15:00:49,069 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.42.1:18080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-21 15:00:49,069 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 
+
+2020-11-21 15:02:40,719 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.42.1:18080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-21 15:02:40,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.42.1:18080_true,
+
+2020-11-21 15:02:47,444 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.42.1:18070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-21 15:02:47,445 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 15:23:10,761 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.42.1:18080_true,
+
+2020-11-21 15:23:13,596 INFO {POS} {IP-DISABLED} valid: 192.168.42.1:18070@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1605943378274
+
+2020-11-21 15:23:28,607 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.42.1:18070:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-11-21 15:23:28,607 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2020-11-21 15:23:56,211 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.42.1:18070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-11-21 15:23:56,211 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
+2020-11-21 15:35:18,293 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.42.1:18080_true,
+
+2020-11-21 15:36:21,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.42.1:18070_true,
+
