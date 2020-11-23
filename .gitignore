@@ -1,4 +1,6 @@
 
 GuLiCode/nacos/logs/nacos.log
 GuLiCode/nacos/logs/config-memory.log
+*/log/*
+*.0
 *.log
