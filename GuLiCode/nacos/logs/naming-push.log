@@ -1,8 +1,16 @@
-2020-11-22 21:46:10,976 INFO DEFAULT_GROUP@@consumer-service is changed, add it to push queue.
+2020-11-24 14:59:31,893 INFO DEFAULT_GROUP@@provider-service is changed, add it to push queue.
 
-2020-11-22 21:46:10,980 INFO serviceName: DEFAULT_GROUP@@consumer-service changed, schedule push for: 192.168.144.1:58497, agent: Nacos-Java-Client:v1.2.1, key: 192.168.144.1,58497,970117227964600
+2020-11-24 14:59:33,096 INFO DEFAULT_GROUP@@consumer-service is changed, add it to push queue.
 
-2020-11-22 21:46:10,980 INFO send udp packet: 192.168.144.1,58497,970117227964600
+2020-11-24 14:59:47,148 INFO DEFAULT_GROUP@@provider-service is changed, add it to push queue.
 
-2020-11-22 21:46:11,044 INFO received ack: {"type": "push-ack", "lastRefTime":"970117227964600", "data":""} from: 192.168.144.1:58497, cost: 64 ms, unacked: 0, total push: 1
+2020-11-24 14:59:48,121 INFO DEFAULT_GROUP@@consumer-service is changed, add it to push queue.
+
+2020-11-24 15:58:44,441 INFO DEFAULT_GROUP@@consumer-service is changed, add it to push queue.
+
+2020-11-24 15:58:49,241 INFO DEFAULT_GROUP@@provider-service is changed, add it to push queue.
+
+2020-11-24 16:29:33,664 INFO DEFAULT_GROUP@@consumer-service is changed, add it to push queue.
+
+2020-11-24 16:29:34,595 INFO DEFAULT_GROUP@@provider-service is changed, add it to push queue.
 

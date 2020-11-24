@@ -1,7 +1,10 @@
-2020-11-22 21:45:34,454|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|null|1606052734427|192.168.42.1|persist|pub|-1|c47c30c65d219723e22bbca846a468ed
-2020-11-22 21:45:34,471|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|null|1606052734427|192.168.42.1|notify|ok|41|192.168.42.1:8848
-2020-11-22 21:45:34,560|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|null|1606052734427|192.168.42.1|dump|ok|133|216
-2020-11-22 21:46:06,082|192.168.42.1|consumer-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
-2020-11-22 21:46:06,089|192.168.42.1|consumer-service.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
-2020-11-22 21:46:10,076|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|unknown|1606052734427|pull|ok|35649|127.0.0.1
-2020-11-22 21:46:10,107|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|unknown|1606052734427|pull|ok|35680|127.0.0.1
+2020-11-24 15:58:38,164|192.168.42.1|consumer-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 15:58:38,493|192.168.42.1|consumer-service.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 15:58:43,228|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|unknown|1606052734427|pull|ok|151988801|127.0.0.1
+2020-11-24 15:58:44,022|192.168.42.1|provider-service|dev|7cc4ac46-dec8-4f3c-8f4e-5f44fb2d009c|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 15:58:44,030|192.168.42.1|provider-service.properties|dev|7cc4ac46-dec8-4f3c-8f4e-5f44fb2d009c|unknown|1605937698562|pull|ok|267025468|127.0.0.1
+2020-11-24 16:29:27,737|192.168.42.1|consumer-service|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 16:29:27,757|192.168.42.1|consumer-service.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 16:29:29,321|192.168.42.1|provider-service|dev|7cc4ac46-dec8-4f3c-8f4e-5f44fb2d009c|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-11-24 16:29:29,327|192.168.42.1|provider-service.properties|dev|7cc4ac46-dec8-4f3c-8f4e-5f44fb2d009c|unknown|1605937698562|pull|ok|268870765|127.0.0.1
+2020-11-24 16:29:32,476|192.168.42.1|consumer-sentinel|dev|977e6bd3-752f-4b02-ae5d-3fdcce55d1c6|unknown|1606052734427|pull|ok|153838049|127.0.0.1
